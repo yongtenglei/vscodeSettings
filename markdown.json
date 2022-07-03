@@ -1,0 +1,162 @@
+{
+	"H1": {
+		"prefix": "h1",
+		"body": [
+			"# ${1:H1}",
+			"${0}"
+		],
+		"description": "H1"
+	},
+	"H2": {
+		"prefix": "h2",
+		"body": [
+			"## ${1:H2}",
+			"${0}"
+		],
+		"description": "H2"
+	},
+	"H3": {
+		"prefix": "h3",
+		"body": [
+			"### ${1:H3}",
+			"${0}"
+		],
+		"description": "H3"
+	},
+	"H4": {
+		"prefix": "h4",
+		"body": [
+			"#### ${1:H4}",
+			"${0}"
+		],
+		"description": "H4"
+	},
+	"picture": {
+		"prefix": "pic",
+		"body": [
+			"![](${1:link})",
+			"${0}"
+		],
+		"description": "picture"
+	},
+	"code block": {
+		"prefix": "code",
+		"body": [
+			"```${1:lang}",
+			"${2:code}",
+			"```",
+			"${0}"
+		],
+		"description": "code block"
+	},
+	"split line": {
+		"prefix": "line",
+		"body": [
+			"",
+			"---",
+			"",
+			"${0}"
+		],
+		"description": "split line"
+	},
+	"bold font": {
+		"prefix": "bo",
+		"body": [
+			"**${1:content}**${0}"
+		],
+		"description": "bold font"
+	},
+	"italic font": {
+		"prefix": "ita",
+		"body": [
+			"*${1:content}*${0}"
+		],
+		"description": "italic font"
+	},
+	"bold italic font": {
+		"prefix": "bi",
+		"body": [
+			"***${1:content}***${0}"
+		],
+		"description": "bold italic font"
+	},
+	"slashed font": {
+		"prefix": "sla",
+		"body": [
+			"~~${1:content}~~${0}"
+		],
+		"description": "slashed font"
+	},
+	"inline content": {
+		"prefix": "ili",
+		"body": [
+			"`${1:content}`${0}"
+		],
+		"description": "inline content"
+	},
+	"inline math": {
+		"prefix": "ima",
+		"body": [
+			"$${1:math}$${0}"
+		],
+		"description": "inline math"
+	},
+	"blocked math": {
+		"prefix": "bma",
+		"body": [
+			"$$",
+			"${1:math}",
+			"$$",
+			"${0}"
+		],
+		"description": "blocked math"
+	},
+	"anchor": {
+		"prefix": "a",
+		"body": [
+			"[${1:title}](${2:link})${0}"
+		],
+		"description": "anchor"
+	},
+	"checked block": {
+		"prefix": "che",
+		"body": [
+			"- [x] ${1:content}${0}"
+		],
+		"description": "checked block"
+	},
+	"unchecked block": {
+		"prefix": "uch",
+		"body": [
+			"- [ ] ${1:content}${0}"
+		],
+		"description": "unchecked block"
+	},
+	"centered picture": {
+		"prefix": "cpic",
+		"body": [
+			"<div align=center><img src=\"${1:link}\"></div>",
+			"${0}"
+		],
+		"description": "centered picture"
+	},
+	"Insert a simple table with 2 columns": {
+		"prefix": "table2",
+		"body": [
+			"|${0:title} |  |",
+			"| - | - |",
+			"|   |   |"
+		],
+		"description": "Insert a simple table"
+	},
+	"Insert a simple table with 3 columns": {
+		"prefix": "table3",
+		"body": [
+			"|${0:title} |  | |",
+			"| - | - | - | ",
+			"|   |   | | "
+		],
+		"description": "Insert a simple table"
+	}
+	// test
+}

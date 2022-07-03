@@ -1,0 +1,313 @@
+{
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "editor.fontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "relative",
+    "editor.tokenColorCustomizations": {
+        "[Kanagawa]": {
+            "comments": {
+                "foreground": "#FF9E3B"
+            }
+        }
+    },
+    // vim settings
+    "vim.leader": "<space>",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-n>": false
+    },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "C-u",
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // basic mappings
+        {
+            "before": [
+                "u"
+            ],
+            "after": [
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "e"
+            ],
+            "after": [
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "n"
+            ],
+            "after": [
+                "h"
+            ]
+        },
+        {
+            "before": [
+                "i"
+            ],
+            "after": [
+                "l"
+            ]
+        },
+        {
+            "before": [
+                "l"
+            ],
+            "after": [
+                "u"
+            ]
+        },
+        {
+            "before": [
+                "k"
+            ],
+            "after": [
+                "i"
+            ]
+        },
+        {
+            "before": [
+                "N"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "I"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "U"
+            ],
+            "after": [
+                "5",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "E"
+            ],
+            "after": [
+                "5",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "d",
+                "I"
+            ],
+            "after": [
+                "d",
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "d",
+                "N"
+            ],
+            "after": [
+                "d",
+                "^"
+            ]
+        },
+        // short cut
+        {
+            "before": [
+                ";"
+            ],
+            "after": [
+                ":"
+            ]
+        },
+        {
+            "before": [
+                ":"
+            ],
+            "commands": [
+                // C-shift-p
+                "workbench.action.showCommands",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>"
+            ],
+            "after": [
+                "/",
+                "<++>",
+                "<enter>",
+                "c",
+                "w"
+            ],
+            "silent": true
+        },
+        // buffer switcher
+        {
+            "before": [
+                "b",
+                "n"
+            ],
+            "after": [
+                "g",
+                "T"
+            ],
+        },
+        {
+            "before": [
+                "b",
+                "i"
+            ],
+            "after": [
+                "g",
+                "t"
+            ],
+        },
+        // searcher helper
+        {
+            "before": [
+                "="
+            ],
+            "after": [
+                "n"
+            ]
+        },
+        {
+            "before": [
+                "-"
+            ],
+            "after": [
+                "N"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<enter>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "e"
+            ],
+            "after": [
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "u"
+            ],
+            "after": [
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "n"
+            ],
+            "after": [
+                "h"
+            ]
+        },
+        {
+            "before": [
+                "i"
+            ],
+            "after": [
+                "l"
+            ]
+        },
+        {
+            "before": [
+                "U"
+            ],
+            "after": [
+                "5",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "E"
+            ],
+            "after": [
+                "5",
+                "j"
+            ]
+        },
+        // indent lines
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ],
+    // vim input method 
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "2052", // 2052 ZH_cn 1033 US_en
+    "vim.autoSwitchInputMethod.obtainIMCmd": "D:\\bin\\im-select.exe",
+    "vim.autoSwitchInputMethod.switchIMCmd": "D:\\bin\\im-select.exe {im}",
+    "workbench.iconTheme": "material-icon-theme",
+    // markdown settings
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.renderWhitespace": "all",
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "on",
+            "strings": "on"
+        },
+        "editor.acceptSuggestionOnEnter": "on",
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}
